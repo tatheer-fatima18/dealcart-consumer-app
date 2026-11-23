@@ -1,0 +1,93 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Local machine / SDK paths
+local.properties
+**/local.properties
+
+# Signing / secrets — never commit keystores or private keys
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+*.pem
+secrets.properties
+**/secrets.properties
+!**/secrets.properties.example
+keystore.properties
+**/keystore.properties
+!**/keystore.properties.example
+iosApp/Configuration/Secrets.*.xcconfig
+!iosApp/Configuration/Secrets.*.xcconfig.example
+*.env
+.env*
+!.env.example
+
+# Gradle / Kotlin build
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+.kotlin/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Native / CMake
+.cxx/
+.externalNativeBuild/
+**/cmake-build-*/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*~
+
+# Android Studio / IntelliJ misc
+*.hprof
+*.log
+firebase-debug.log
+crashlytics-build.properties
+com_crashlytics_export_strings.xml
+
+# iOS / Xcode
+iosApp/Pods/
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Crash symbols / uploads (large, regenerable)
+*.dSYM/
+DealCart.app.dSYM/
+dsym-upload/
+
+# Fastlane (local)
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/**/*.png
+**/fastlane/test_output
+
+# Optional: uncomment if Firebase client configs should stay private
+# **/google-services.json
+# **/GoogleService-Info*.plist

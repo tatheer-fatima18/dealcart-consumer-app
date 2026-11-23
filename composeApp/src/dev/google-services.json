@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926422473352",
+    "project_id": "deadcart-stage",
+    "storage_bucket": "deadcart-stage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926422473352:android:0a4bc9a4d4c746a10bdd3d",
+        "android_client_info": {
+          "package_name": "com.localpk.android.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926422473352-enoii7ute605i7lhh1hlntot3fsmdgl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDceoscVMsDbBBlA5U6za92nL_JfVB_5g4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926422473352-enoii7ute605i7lhh1hlntot3fsmdgl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

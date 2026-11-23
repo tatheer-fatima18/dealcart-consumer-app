@@ -1,0 +1,46 @@
+package com.localpk.app.features.cricket_live.data
+
+import cafe.adriel.voyager.core.lifecycle.JavaSerializable
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CricketSwimlaneUiData(
+    val id: String,
+    val currentBattingTeam: String,
+    val teamA: String,
+    val flagTeamA: String,
+    val scoreTeamA: String,
+    val wicketTeamA: String,
+    val overTeamA: String,
+    val currentRunRateTeamA: String,
+    val isResultTeamA: Boolean,
+    val teamB: String,
+    val flagTeamB: String,
+    val scoreTeamB: String,
+    val wicketTeamB: String,
+    val overTeamB: String,
+    val currentRunRateTeamB: String,
+    val requiredRunRateTeamB: String,
+    val score: String,
+    val wicket: String,
+    val currentRunRate: String,
+    val requiredRunRate: String,
+    val isResultTeamB: Boolean,
+    val status: String,
+    val over: String,
+    val message: String,
+    val isLive: Boolean,
+    val isTeamAPlaying: Boolean,
+    val isTeamBPlaying: Boolean,
+    val startAtTime: String,
+    val startAtDate: String,
+    val isToday: Boolean,
+    val isResult: Boolean,
+    val wasMatchStarted: Boolean,
+    val isDLApplied: Boolean,
+    val reducedOversTeamA: String,
+    val isReducedOversTeamA: Boolean,
+    val reducedOversTeamB: String,
+    val isReducedOversTeamB: Boolean,
+    val reducedTargetTeamB:Long,
+) : JavaSerializable

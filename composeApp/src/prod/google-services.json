@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "736518147623",
+    "project_id": "deal-cart-prod",
+    "storage_bucket": "deal-cart-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736518147623:android:c9778a54931e5031c14802",
+        "android_client_info": {
+          "package_name": "com.localpk.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736518147623-f1anuu379j93bhtcje2pnf7p4hkmsaip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjjW4xvYl4x6ghTJP746HYrev_r1tVwr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736518147623-f1anuu379j93bhtcje2pnf7p4hkmsaip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

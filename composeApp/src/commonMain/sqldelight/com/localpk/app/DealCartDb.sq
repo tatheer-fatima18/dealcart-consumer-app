@@ -1,0 +1,3 @@
+CREATE TABLE  DealCartTable(
+    userId INTEGER NOT NULL
+);

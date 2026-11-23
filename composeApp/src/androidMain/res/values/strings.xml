@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DealCart</string>
+    <!-- Injected at build time from secrets.properties via resValue -->
+    <string name="google_maps_key"></string>
+</resources>

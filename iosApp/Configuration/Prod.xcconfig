@@ -1,0 +1,15 @@
+#include? "Secrets.Prod.xcconfig"
+
+TEAM_ID=S9Q5TD6L72
+PRODUCT_NAME=DealCart
+PRODUCT_BUNDLE_IDENTIFIER=com.localpk.dealcart
+GOOGLE_SERVICE=$(SRCROOT)/Firebase/GoogleService-Info-Production.plist
+APPLICATION_DISPLAY_NAME=DealCart
+BUILD_ENVIRONMENT=prod
+KOTLIN_FRAMEWORK_BUILD_TYPE=Release
+BASE_URL_DOMAIN=api.dealcart.io
+BASE_URL_FOOD_DOMAIN=food-api.dealcart.io
+BASE_URL_DOLAT_DOMAIN=dolat-api.dealcart.io
+BASE_URL_LINKS_DOMAIN=links.dealcart.io
+BASE_URL_AGENT_DOMAIN=agent-api.dealcart.io
+BASE_URL_SPORTS_DOMAIN=sports.dealcart.io

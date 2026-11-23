@@ -1,0 +1,4 @@
+<resources>
+    <!-- Injected at build time from secrets.properties via resValue -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"></string>
+</resources>

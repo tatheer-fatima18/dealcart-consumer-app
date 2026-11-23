@@ -1,0 +1,15 @@
+#include? "Secrets.Dev.xcconfig"
+
+TEAM_ID=
+PRODUCT_NAME=DealCart
+PRODUCT_BUNDLE_IDENTIFIER=com.localpk.ios.dev
+GOOGLE_SERVICE=$(SRCROOT)/Firebase/GoogleService-Info-Development.plist
+APPLICATION_DISPLAY_NAME=DealCart (Dev)
+BUILD_ENVIRONMENT=dev
+KOTLIN_FRAMEWORK_BUILD_TYPE=Debug
+BASE_URL_DOMAIN=api-dev.dealcart.io
+BASE_URL_FOOD_DOMAIN=food-api-dev.dealcart.io
+BASE_URL_DOLAT_DOMAIN=dolat-api-dev.dealcart.io
+BASE_URL_LINKS_DOMAIN=links-dev.dealcart.io
+BASE_URL_AGENT_DOMAIN=agent-api-dev.dealcart.io
+BASE_URL_SPORTS_DOMAIN=sports-dev.dealcart.io

@@ -1,0 +1,11 @@
+framework module mergn_ios {
+  umbrella header "mergn_ios.h"
+  export *
+
+  module * { export * }
+}
+
+module mergn_ios.Swift {
+  header "mergn_ios-Swift.h"
+  requires objc
+}

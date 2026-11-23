@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DealCart" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- Make navigation bar icons dark/grey (for API 27+) -->
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Theme.DealCart.Splash" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <!-- Match Compose splash screen design: background color and centered logo -->
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
+

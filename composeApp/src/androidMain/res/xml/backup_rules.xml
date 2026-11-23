@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude
+        domain="sharedpref"
+        path="com.localpk.android+mergn_prefs.xml" />
+    <exclude domain="database" path="my_database" />
+    <exclude domain="database" path="my_database-wal" />
+    <exclude domain="database" path="my_database-shm" />
+</full-backup-content>

@@ -1,0 +1,15 @@
+#include? "Secrets.Staging.xcconfig"
+
+TEAM_ID=
+PRODUCT_NAME=DealCart
+PRODUCT_BUNDLE_IDENTIFIER=com.localpk.ios.staging
+GOOGLE_SERVICE=$(SRCROOT)/Firebase/GoogleService-Info-Staging.plist
+APPLICATION_DISPLAY_NAME=DealCart (Staging)
+BUILD_ENVIRONMENT=staging
+KOTLIN_FRAMEWORK_BUILD_TYPE=Debug
+BASE_URL_DOMAIN=api-staging.dealcart.io
+BASE_URL_FOOD_DOMAIN=food-api-staging.dealcart.io
+BASE_URL_DOLAT_DOMAIN=dolat-api-staging.dealcart.io
+BASE_URL_LINKS_DOMAIN=links-staging.dealcart.io
+BASE_URL_AGENT_DOMAIN=agent-api-staging.dealcart.io
+BASE_URL_SPORTS_DOMAIN=sports-staging.dealcart.io
